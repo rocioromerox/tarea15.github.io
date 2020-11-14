@@ -1,10 +1,11 @@
 <template>
 <div class="editar-container">
-<p class="editar-text"><span>Nombre:</span> {{$route.params.id}} </p>
-<p class="editar-text"><span>Apodo:</span> {{$route.params.username}} </p>
-<p class="editar-text"><span>Email:</span> {{$route.params.email}}</p>
-<p class="editar-text"><span>Teléfono:</span> {{$route.params.phone}}</p>
-<p class="editar-text"><span>Página web:</span>: {{$route.params.website}}</p>
+    <div class="imagen-container"><img src="../assets/usuario.png" alt="" width="80" height="80"></div>
+    <div><p class="editar-text"><span>Nombre:</span> {{$route.params.id}} </p></div>
+    <div><p class="editar-text"><span>Apodo:</span> {{$route.params.username}}</p></div>
+    <div><p class="editar-text"><span>Email:</span> {{$route.params.email}}</p></div>
+    <div><p class="editar-text"><span>Teléfono:</span> {{$route.params.phone}}</p></div>
+    <div><p class="editar-text"><span>Página web:</span>: {{$route.params.website}}</p></div>
 </div>
 
 <div class="editar-container-2">
@@ -64,6 +65,16 @@ export default {
     color:black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
+    
+}
+
+.imagen-container {
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid goldenrod;
+    background-color: goldenrod;
+    
 }
 
 
