@@ -25,6 +25,9 @@
   font-weight: bold;
   margin: 20px;
   border-radius: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 
   a {
     color:white;
